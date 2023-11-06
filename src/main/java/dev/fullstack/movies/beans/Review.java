@@ -1,4 +1,4 @@
-package dev.fullstack.movies;
+package dev.fullstack.movies.beans;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -12,8 +12,8 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Review {
+
     @Id
     private ObjectId id;
-
     private String body;
 }
